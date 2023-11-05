@@ -2,8 +2,8 @@ const TelegramBot = require('node-telegram-bot-api');
 const express = require('express');
 const cors = require('cors');
 
-const token = '5336424335:AAGk0uyo0qqRCrKgvr2J7GrYKK1S0MF8878';
-const webAppUrl = 'https://ornate-selkie-c27577.netlify.app';
+const token = '6136917496:AAHiWQNy3v06MGy_-FlDxhA7N-SukOycmWU';
+const webAppUrl = '';
 
 const bot = new TelegramBot(token, {polling: true});
 const app = express();
