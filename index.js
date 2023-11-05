@@ -2,8 +2,8 @@ const TelegramBot = require('node-telegram-bot-api');
 const express = require('express');
 const cors = require('cors');
 
-const token = '';
-const webAppUrl = '';
+const token = '6136917496:AAHyI3XzIpw2wV3GrQo1BtBfZymqXqoX44Q';
+const webAppUrl = 'https://flourishing-druid-5a80da.netlify.app/';
 
 const bot = new TelegramBot(token, {polling: true});
 const app = express();
